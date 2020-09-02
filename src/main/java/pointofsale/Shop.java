@@ -8,6 +8,9 @@ import java.net.Socket;
 class ModemDidNotConnectException extends Exception {}
 
 class ModemLibrary {
+  public static void bad() {
+//    throw new Throwable();
+  }
   public static void dialModem(int phone) throws ModemDidNotConnectException {
 
   }
